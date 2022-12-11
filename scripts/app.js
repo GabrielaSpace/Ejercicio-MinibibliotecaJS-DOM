@@ -63,10 +63,10 @@ const books = [
   
     for (let i =0; i <books.length;i++){
   
-      mbbooks (books, i);
+      mbbooks (books[i]);
     }
   
-    function mbbooks() {
+    function mbbooks(object) {
   
   
     let mbArticle = document.createElement('article');
@@ -105,8 +105,6 @@ const books = [
     mbPages.setAttribute('class','pages');
     mbArticle.appendChild(mbPages);
   
-
- books.forEach(object =>{
       
      mbTitle.textContent=object.title;
      mbAuthor.textContent=object.author;
@@ -117,12 +115,6 @@ const books = [
      mbYear.textContent=object.year;
      mbPages.textContent=object.pages;
 
-
-  }); 
-
-
-
-  
   }
   
     console.log(mbMain);
