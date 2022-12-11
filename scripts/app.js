@@ -117,9 +117,7 @@ const books = [
      mbPages.textContent=object.pages;
 
   }
-  
-    console.log(img.value);
-    cconsole.log('imageLink.value')
+  console.log(mbMain);
   
   
   
