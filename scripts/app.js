@@ -87,6 +87,7 @@ const books = [
   
     let mbImg = document.createElement('img');
     mbImg.setAttribute('class','imageLink');
+    mbImg.setAttribute('src','https://images.unsplash.com/photo-1604342162684-0cb7869cc445?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80')
     mbArticle.appendChild(mbImg);
   
    let mbLink = document.createElement('a');
@@ -117,7 +118,8 @@ const books = [
 
   }
   
-    console.log(mbMain);
+    console.log(img.value);
+    cconsole.log('imageLink.value')
   
   
   
