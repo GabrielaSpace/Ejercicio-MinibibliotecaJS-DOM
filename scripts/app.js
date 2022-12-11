@@ -61,12 +61,10 @@ const books = [
     mbMain.appendChild(mbSection);
   
   
-  
     for (let i =0; i <books.length;i++){
   
-      mbbooks (books[i], i);
+      mbbooks (books, i);
     }
-  
   
     function mbbooks() {
   
@@ -91,8 +89,8 @@ const books = [
     mbImg.setAttribute('class','imageLink');
     mbArticle.appendChild(mbImg);
   
-   let mbLink = document.createElement('p');
-    mbLink.setAttribute('src','link');
+   let mbLink = document.createElement('a');
+    mbLink.setAttribute('href','link');
     mbArticle.appendChild(mbLink);
   
     let mbLanguage = document.createElement('p');
@@ -107,8 +105,24 @@ const books = [
     mbPages.setAttribute('class','pages');
     mbArticle.appendChild(mbPages);
   
-  document.getElementsByClassName('title').innerHTML =books.title;
 
+ books.forEach(object =>{
+      
+     mbTitle.textContent=object.title;
+     mbAuthor.textContent=object.author;
+     mbCountry.textContent=object.country;
+     mbImg.textContent=object.imageLink;
+     mbLink.textContent=object.link;
+     mbLanguage.textContent=object.language;
+     mbYear.textContent=object.year;
+     mbPages.textContent=object.pages;
+
+
+  }); 
+
+
+
+  
   }
   
     console.log(mbMain);
