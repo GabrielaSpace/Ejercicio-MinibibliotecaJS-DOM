@@ -56,6 +56,7 @@ const books = [
   
   
     let mbMain= document.createElement('main');
+    document.body.appendChild(mbMain);
     let mbSection = document.createElement('section');
     mbMain.appendChild(mbSection);
   
