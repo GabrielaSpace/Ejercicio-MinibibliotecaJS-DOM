@@ -118,7 +118,8 @@ const books = [
 
   }
   
-    console.log(mbMain);
+    console.log(img.value);
+    cconsole.log('imageLink.value')
   
   
   
