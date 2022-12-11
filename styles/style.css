@@ -1,0 +1,33 @@
+body{
+    background-color: #698474;
+}
+section{
+    background-color:#ffaaa5;
+    padding: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+.book{
+    background-color: white;
+    width: 300px;
+    height: 350px;
+   
+    margin: 10px;
+}
+h1{
+    color:#ffd3b6;
+    text-align: center;
+}
+
+.title{
+    color: #698474;
+    font-size: 20px;
+    font-weight: 200;
+
+}
+.author{
+    color: #ffd3b6;
+    font-size: 15px;
+}
