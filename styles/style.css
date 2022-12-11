@@ -1,0 +1,51 @@
+body{
+    background-color: #698474;
+}
+section{
+    background-color:#ffaaa5;
+    padding: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+.book{
+    background-color: white;
+    width: 300px;
+    height: 480px;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+img{
+    width: 95%;
+    height: 180px;
+    padding: 10px;
+}
+h1{
+    color:#ffd3b6;
+    text-align: center;
+    
+}
+
+a{
+    text-align: center;
+    padding: 5px;
+}
+
+a:hover{
+    color: #ffaaa5;
+}
+
+.title{
+    color: #698474;
+    font-size: 20px;
+    font-weight: 200px;
+
+}
+.author{
+    color: #ffaaa5;
+    font-size: 17px;
+    font-weight: 200px;
+}
