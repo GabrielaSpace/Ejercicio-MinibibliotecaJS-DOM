@@ -71,6 +71,7 @@ const books = [
   
   
     let mbArticle = document.createElement('article');
+    mbArticle.setAttribute('class','book');
     mbSection.appendChild(mbArticle);
       
     let mbTitle = document.createElement('h3');
@@ -107,7 +108,6 @@ const books = [
   
   document.getElementsByClassName('title').innerHTML =books.title;
 
-  
   }
   
     console.log(mbMain);
